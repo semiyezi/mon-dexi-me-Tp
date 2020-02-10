@@ -1,0 +1,114 @@
+body{
+    background-color: steelblue;
+}
+.mapage{
+    background-color: white;
+    border: 2px solid  steelblue;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: Raleway;
+   
+}
+#adresse{
+    width: 25Px;
+    height: 25px;
+}
+
+#mail{
+    width: 30Px;
+    height: 30px;
+}
+#img1{
+    width: 30Px;
+    height:30px;
+}
+#img2{
+    width: 30Px;
+    height: 30px;
+}
+#img3{
+    width: 30Px;
+    height: 30px;
+}
+li{
+    list-style: none;
+}
+.section{
+    border: 4px solid  steelblue;
+    border-radius: 10px;
+    padding-left: 2%;
+}
+h1{
+    text-align: center;
+    font-family: Oswald;
+}
+h2{
+    font-family: Oswald;  
+}
+.photo{
+    display: inline-block;
+    float:right;
+    margin-right: 5%;
+}
+
+.infophoto{
+    display: inline-block;
+    padding-left: 2%;
+}
+ a{
+    display: inline-block;
+}
+
+.profil{
+    display: inline-block;
+   
+    width: 100%;
+}
+
+li{
+    display: inline;
+}
+#sec2{
+    text-align: justify;
+}
+#K1 ul{
+    
+    text-align: center;
+    color: black;
+
+}
+nav{
+    text-align: center;
+   
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+    font-weight: bold;
+}
+@media screen and (max-width:520px){
+    body{
+        background-color: red;
+    }
+
+    #K1 ul{
+    
+        text-align: center;
+    }
+    .photo{
+        display: block;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+       
+    }
+    .photo img{ 
+        
+      flex-direction: row ;
+       
+    }
+    
+
+}
